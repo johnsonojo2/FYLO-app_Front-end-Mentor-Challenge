@@ -1,0 +1,59 @@
+/*
+COLOR
+
+-Dark Blue (intro and email sign up background): hsl(217, 28%, 15%)
+- Dark Blue (main background): hsl(218, 28%, 13%)
+- Dark Blue (footer background): hsl(216, 53%, 9%)
+- Dark Blue (testimonials background): hsl(219, 30%, 18%)
+- Cyan (inside call-to-action gradient): hsl(176, 68%, 64%)
+- Blue (inside call-to-action gradient): hsl(198, 60%, 50%)
+- Light Red (error): hsl(0, 100%, 63%)
+- White: hsl(0, 0%, 100%)
+*/
+
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing:inherit;
+}
+
+:root{
+    --dark-blue-email: hsl(217, 28%, 15%);
+    --dark-blue-main:   hsl(218, 28%, 13%);
+    --dark-blue-footer:  hsl(216, 53%, 9%);
+    --dark-blue-testimonial:  hsl(219, 30%, 18%);
+    --cyan-cta:hsl(176, 68%, 64%);
+    --blue-cta:#339ecc;
+    --red-error:hsl(0, 100%, 63%);
+    --white:#DCDCDC;
+}
+html{
+
+    box-sizing:border-box;
+    font-size: 62.5%; //this makes 1rem==10px rather than the conventional 1rem==16px; 10/16px==0.625==62.5%
+}
+
+body{
+    font-family:'Open Sans', sans-serif;
+    color:var(--white);
+    min-height: 100vh;
+    font-weight:400;
+    font-size:1.4rem;
+    line-height: 1.6;
+    max-width: 144rem;
+    width:100%;
+    margin:0 auto;
+   
+    
+   
+    
+}
